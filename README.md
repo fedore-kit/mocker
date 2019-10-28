@@ -1,4 +1,4 @@
-# @Jarry/Mocker
+# @JarryUI/Mocker
 
 基于 Koa.js 与 Mock.js 的 JSON Mock 服务器
 
@@ -6,7 +6,7 @@
 
 <!-- TOC -->
 
-- [@Jarry/Mocker](#jarrymocker)
+- [@JarryUI/Mocker](#jarryuimocker)
 - [目录](#目录)
 - [使用指南](#使用指南)
   - [安装](#安装)
@@ -27,12 +27,12 @@
 
 - 使用 npm
 ```
-npm install --save koa @jarry/mocker
+npm install --save koa @jarryui/mocker
 ```
 
 - 使用 yarn
 ```
-yarn add koa @jarry/mocker
+yarn add koa @jarryui/mocker
 ```
 
 
@@ -41,7 +41,7 @@ yarn add koa @jarry/mocker
 ### 示例代码
 
 ```js
-const { Mocker } = require('@jarry/mocker');
+const { Mocker } = require('@jarryui/mocker');
 const Koa = require('koa');
 
 const mocker = new Mocker({
@@ -156,7 +156,7 @@ mocker.mock({
 - /index.js
 
 ```js
-const { Mocker } = require('@jarry/mocker');
+const { Mocker } = require('@jarryui/mocker');
 const Koa = require('koa');
 const path = require('path');
 
