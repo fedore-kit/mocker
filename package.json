@@ -1,7 +1,7 @@
 {
-  "name": "@fedore/mocker",
+  "name": "@jarryui/mocker",
   "version": "1.0.0",
-  "description": "Fedore Mocker Server",
+  "description": "JarryUI Mocker Server",
   "main": "index.js",
   "types": "typings/index.d.ts",
   "scripts": {
