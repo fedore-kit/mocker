@@ -1,0 +1,22 @@
+{
+  "name": "@quantum/mocker",
+  "version": "1.0.0",
+  "description": "Quantum Mocker Server",
+  "main": "index.js",
+  "types": "typings/index.d.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "songshu",
+  "license": "ISC",
+  "dependencies": {
+    "@koa/router": "^8.0.2",
+    "@types/koa__router": "^8.0.0",
+    "koa-bodyparser": "^4.2.1",
+    "lodash": "^4.17.15",
+    "mockjs": "^1.0.1-beta3"
+  },
+  "devDependencies": {
+    "@types/koa": "^2.0.51"
+  }
+}
