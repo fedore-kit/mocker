@@ -1,7 +1,7 @@
 {
-  "name": "@quantum/mocker",
+  "name": "@fedore/mocker",
   "version": "1.0.0",
-  "description": "Quantum Mocker Server",
+  "description": "Fedore Mocker Server",
   "main": "index.js",
   "types": "typings/index.d.ts",
   "scripts": {
